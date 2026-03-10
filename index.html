@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>拓洋科技 Oceanex Technology - 專業電子零組件供應鏈夥伴</title>
+  <meta name="description" content="拓洋科技股份有限公司，專注於電子產業供應鏈服務，提供關鍵電子零組件採購整合、記憶體供應鏈管理及技術服務。">
+  <meta name="keywords" content="拓洋科技, Oceanex, 電子零組件, 記憶體, CPU, GPU, 供應鏈, 半導體">
+  <meta property="og:title" content="拓洋科技 Oceanex Technology">
+  <meta property="og:description" content="專業電子零組件供應鏈夥伴 - 代理與貿易服務">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%231C3F97'/><text x='16' y='22' font-size='18' fill='white' text-anchor='middle' font-family='Arial'>O</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'ocean-blue': '#1C3F97',
+            'ocean-dark': '#0F2259',
+            'ocean-cyan': '#4CB8C4',
+            'ocean-light': '#7DD3E0',
+            'ocean-sky': '#E8F4F8',
+          },
+          fontFamily: {
+            sans: ['Inter', 'Noto Sans TC', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body class="font-sans text-gray-800 antialiased">
+  <div id="app">
+    <nav-bar :current-lang="currentLang" @toggle-lang="toggleLang" :t="t"></nav-bar>
+    <main class="pt-20">
+      <router-view :t="t" :current-lang="currentLang"></router-view>
+    </main>
+    <footer-section :t="t"></footer-section>
+    <scroll-to-top></scroll-to-top>
+  </div>
+
+  <!-- Vue 3 -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <!-- Vue Router 4 -->
+  <script src="https://unpkg.com/vue-router@4/dist/vue-router.global.prod.js"></script>
+
+  <!-- Data -->
+  <script src="js/data/content.js"></script>
+
+  <!-- Components -->
+  <script src="js/components/LanguageSwitcher.js"></script>
+  <script src="js/components/NavBar.js"></script>
+  <script src="js/components/FooterSection.js"></script>
+  <script src="js/components/HeroBanner.js"></script>
+  <script src="js/components/ScrollToTop.js"></script>
+
+  <!-- Pages -->
+  <script src="js/pages/HomePage.js"></script>
+  <script src="js/pages/AboutPage.js"></script>
+  <script src="js/pages/AgencyProducts.js"></script>
+  <script src="js/pages/TradeProducts.js"></script>
+  <script src="js/pages/ContactPage.js"></script>
+
+  <!-- App -->
+  <script src="js/app.js"></script>
+</body>
+</html>
