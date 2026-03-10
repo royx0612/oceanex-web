@@ -103,7 +103,7 @@ const ContactPage = {
                   </div>
                   <div>
                     <h3 class="font-semibold text-gray-900 mb-1">{{ currentLang === 'zh-TW' ? '電話' : 'Phone' }}</h3>
-                    <a href="tel:+886937992899" class="text-ocean-blue hover:text-ocean-cyan text-sm transition-colors">
+                    <a href="tel:+886937459758" class="text-ocean-blue hover:text-ocean-cyan text-sm transition-colors">
                       {{ t('contact.phone') }}
                     </a>
                   </div>

@@ -10,13 +10,13 @@ const siteContent = {
     hero: {
       slides: [
         {
-          title: '你的電子零組件供應鏈夥伴',
+          title: '您的電子零組件供應鏈夥伴',
           subtitle: '從零組件採購到供應鏈管理，我們一站搞定',
           cta: '了解更多',
         },
         {
           title: '代理國際知名品牌',
-          subtitle: '十銓科技 / 普冉科技 / 晶發科技 — 給你最好的產品線',
+          subtitle: '十銓科技 / 普冉科技 / 晶發科技 — 給您最好的產品線',
           cta: '查看代理產品',
         },
         {
@@ -47,7 +47,7 @@ const siteContent = {
         {
           icon: 'cpu',
           title: '關鍵零組件供應',
-          desc: '幫你整合採購各類關鍵電子零組件，讓產品開發和生產不斷料。',
+          desc: '幫您整合採購各類關鍵電子零組件，讓產品開發和生產不斷料。',
         },
         {
           icon: 'memory-stick',
@@ -57,7 +57,7 @@ const siteContent = {
         {
           icon: 'settings',
           title: '供應鏈管理',
-          desc: '根據你的需求規劃採購策略、管理庫存，讓供應鏈跑得更順更快。',
+          desc: '根據您的需求規劃採購策略、管理庫存，讓供應鏈跑得更順更快。',
         },
       ],
     },
@@ -90,7 +90,7 @@ const siteContent = {
     },
     cta: {
       title: '在找可靠的零組件供應夥伴？',
-      subtitle: '聊聊你的需求，我們來幫你搞定',
+      subtitle: '聊聊您的需求，我們來幫您搞定',
       button: '立即聯繫',
     },
     about: {
@@ -99,7 +99,7 @@ const siteContent = {
       companyDesc: [
         '拓洋科技（Oceanex Technology）成立於 2017 年，專做電子零組件的採購整合和供應鏈管理。簡單說，我們幫客戶找到對的料、用對的價格、在對的時間送到。',
         '近年我們積極投入記憶體（Memory）供應鏈，和上下游夥伴緊密合作，提供記憶體產品的採購、庫存管理和供應調配，支援資料運算、消費性電子等各種應用場景。',
-        '我們會根據每個客戶的狀況，量身打造供應鏈方案，目標就是幫你降低斷料風險、提升整體運作效率。',
+        '我們會根據每個客戶的狀況，量身打造供應鏈方案，目標就是幫您降低斷料風險、提升整體運作效率。',
       ],
       mission: {
         title: '我們的價值觀',
@@ -119,16 +119,16 @@ const siteContent = {
       business: {
         title: '主要業務',
         items: [
-          { title: '關鍵零組件供應', desc: '整合採購各類關鍵電子零組件，支援你的產品開發和量產需求。' },
+          { title: '關鍵零組件供應', desc: '整合採購各類關鍵電子零組件，支援您的產品開發和量產需求。' },
           { title: '記憶體供應鏈整合', desc: '專注記憶體產品的採購整合、供應管理和庫存調配，確保關鍵料件不斷供。' },
-          { title: '供應鏈管理', desc: '根據你的需求做供應鏈整合、庫存管理和採購策略規劃，提升效率、降低風險。' },
-          { title: '客製化供應鏈方案', desc: '結合採購、物流和庫存管理，幫你打造最適合的供應鏈運作模式。' },
+          { title: '供應鏈管理', desc: '根據您的需求做供應鏈整合、庫存管理和採購策略規劃，提升效率、降低風險。' },
+          { title: '客製化供應鏈方案', desc: '結合採購、物流和庫存管理，幫您打造最適合的供應鏈運作模式。' },
         ],
       },
     },
     agency: {
       pageTitle: '代理產品',
-      pageSubtitle: '攜手國際品牌，給你最好的產品線',
+      pageSubtitle: '攜手國際品牌，給您最好的產品線',
       visitWebsite: '前往官網',
       vendors: [
         {
@@ -282,7 +282,7 @@ const siteContent = {
       company: '拓洋科技股份有限公司',
       address: '新北市板橋區中山路一段10號9樓',
       email: 'audi.lu@oceanex.com.tw',
-      phone: '0937-992-8998',
+      phone: '+886 937-459-758',
       taxId: '統一編號：66559337',
       hours: '週一至週五 09:00 - 18:00',
       formTitle: '寄送訊息',
@@ -294,7 +294,7 @@ const siteContent = {
       formSubmit: '發送訊息',
     },
     footer: {
-      desc: '專做電子零組件供應鏈服務，幫你搞定採購整合和供應鏈管理。',
+      desc: '專做電子零組件供應鏈服務，幫您搞定採購整合和供應鏈管理。',
       quickLinks: '快速連結',
       contactInfo: '聯絡資訊',
       copyright: '© 2017-2026 拓洋科技股份有限公司 版權所有',
@@ -583,7 +583,7 @@ const siteContent = {
       company: 'Oceanex Technology Co., Ltd.',
       address: '9F, No. 10, Sec. 1, Zhongshan Rd., Banqiao Dist., New Taipei City, Taiwan',
       email: 'audi.lu@oceanex.com.tw',
-      phone: '0937-992-8998',
+      phone: '+886 937-459-758',
       taxId: 'Tax ID: 66559337',
       hours: 'Mon - Fri 09:00 - 18:00',
       formTitle: 'Send a Message',
