@@ -10,6 +10,7 @@ const FooterSection = {
             <p class="text-gray-300 text-sm leading-relaxed">
               {{ t('footer.desc') }}
             </p>
+            <p class="text-gray-400 text-xs mt-2">{{ t('contact.taxId') }}</p>
           </div>
 
           <!-- Quick Links -->
