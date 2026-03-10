@@ -101,21 +101,6 @@ const siteContent = {
         '近年我們積極投入記憶體（Memory）供應鏈，和上下游夥伴緊密合作，提供記憶體產品的採購、庫存管理和供應調配，支援資料運算、消費性電子等各種應用場景。',
         '我們會根據每個客戶的狀況，量身打造供應鏈方案，目標就是幫你降低斷料風險、提升整體運作效率。',
       ],
-      founders: {
-        title: '經營團隊',
-        members: [
-          {
-            name: 'Audi LU',
-            role: '創辦人',
-            desc: '15 年以上半導體代理銷售與行銷實戰經驗',
-          },
-          {
-            name: 'Tony HSU',
-            role: '共同創辦人',
-            desc: '20 年以上國際級半導體銷售與行銷經驗',
-          },
-        ],
-      },
       mission: {
         title: '我們的價值觀',
         items: [
@@ -128,11 +113,6 @@ const siteContent = {
             icon: 'zap',
             title: '快速回應',
             desc: '客戶有需求，我們第一時間處理，效率是我們的強項',
-          },
-          {
-            icon: 'network',
-            title: '產業人脈深厚',
-            desc: '在 IT 產業深耕多年，上下游關係廣且穩固',
           },
         ],
       },
@@ -303,6 +283,7 @@ const siteContent = {
       address: '新北市板橋區中山路一段10號9樓',
       email: 'audi.lu@oceanex.com.tw',
       phone: '0937-992-8998',
+      taxId: '統一編號：66559337',
       hours: '週一至週五 09:00 - 18:00',
       formTitle: '寄送訊息',
       formName: '姓名',
@@ -421,21 +402,6 @@ const siteContent = {
         'In recent years, we\'ve been actively building our presence in the memory supply chain, working closely with upstream and downstream partners to provide procurement, inventory management, and supply coordination for memory products across computing, consumer electronics, and more.',
         'We tailor supply chain solutions to each client\'s situation, with one goal: reduce supply risk and keep your operations running smoothly.',
       ],
-      founders: {
-        title: 'Leadership Team',
-        members: [
-          {
-            name: 'Audi LU',
-            role: 'Founder',
-            desc: '15+ years of hands-on semiconductor sales & marketing experience',
-          },
-          {
-            name: 'Tony HSU',
-            role: 'Co-Founder',
-            desc: '20+ years of global semiconductor sales & marketing experience',
-          },
-        ],
-      },
       mission: {
         title: 'Our Values',
         items: [
@@ -448,11 +414,6 @@ const siteContent = {
             icon: 'zap',
             title: 'Fast Response',
             desc: 'When you need something, we act fast — speed is what we do best',
-          },
-          {
-            icon: 'network',
-            title: 'Deep Industry Network',
-            desc: 'Years in the IT industry have built us a wide and solid network of partners',
           },
         ],
       },
@@ -623,6 +584,7 @@ const siteContent = {
       address: '9F, No. 10, Sec. 1, Zhongshan Rd., Banqiao Dist., New Taipei City, Taiwan',
       email: 'audi.lu@oceanex.com.tw',
       phone: '0937-992-8998',
+      taxId: 'Tax ID: 66559337',
       hours: 'Mon - Fri 09:00 - 18:00',
       formTitle: 'Send a Message',
       formName: 'Name',

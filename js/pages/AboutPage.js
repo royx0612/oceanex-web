@@ -61,29 +61,11 @@ const AboutPage = {
         </div>
       </section>
 
-      <!-- Founders -->
-      <section class="py-16 md:py-24 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 class="text-3xl font-bold text-gray-900 mb-10 text-center">{{ t('about.founders.title') }}</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-            <div v-for="member in t('about.founders.members')" :key="member.name"
-              class="bg-white rounded-xl p-8 shadow-md border border-gray-100 text-center">
-              <div class="w-20 h-20 bg-ocean-blue rounded-full flex items-center justify-center mx-auto mb-5">
-                <i data-lucide="user" class="w-10 h-10 text-white"></i>
-              </div>
-              <h3 class="text-xl font-semibold text-gray-900 mb-1">{{ member.name }}</h3>
-              <p class="text-ocean-blue font-medium text-sm mb-3">{{ member.role }}</p>
-              <p class="text-gray-600 text-sm">{{ member.desc }}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Mission & Values -->
       <section class="py-16 md:py-24">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 class="text-3xl font-bold text-gray-900 mb-10 text-center">{{ t('about.mission.title') }}</h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             <div v-for="item in t('about.mission.items')" :key="item.title"
               class="text-center p-8">
               <div class="w-16 h-16 bg-ocean-sky rounded-2xl flex items-center justify-center mx-auto mb-6">

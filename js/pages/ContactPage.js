@@ -71,6 +71,7 @@ const ContactPage = {
                   <div>
                     <h3 class="font-semibold text-gray-900 mb-1">{{ t('contact.company') }}</h3>
                     <p class="text-gray-600 text-sm">Oceanex Technology Co., Ltd.</p>
+                    <p class="text-gray-500 text-xs mt-1">{{ t('contact.taxId') }}</p>
                   </div>
                 </div>
 
@@ -97,6 +98,18 @@ const ContactPage = {
                 </div>
 
                 <div class="flex items-start gap-4">
+                  <div class="w-12 h-12 bg-ocean-light rounded-xl flex items-center justify-center flex-shrink-0">
+                    <i data-lucide="phone" class="w-6 h-6 text-white"></i>
+                  </div>
+                  <div>
+                    <h3 class="font-semibold text-gray-900 mb-1">{{ currentLang === 'zh-TW' ? '電話' : 'Phone' }}</h3>
+                    <a href="tel:+886937992899" class="text-ocean-blue hover:text-ocean-cyan text-sm transition-colors">
+                      {{ t('contact.phone') }}
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
                   <div class="w-12 h-12 bg-ocean-sky rounded-xl flex items-center justify-center flex-shrink-0">
                     <i data-lucide="clock" class="w-6 h-6 text-ocean-blue"></i>
                   </div>
@@ -107,13 +120,12 @@ const ContactPage = {
                 </div>
               </div>
 
-              <!-- Decorative Map Placeholder -->
-              <div class="mt-6 bg-ocean-sky rounded-xl p-8 text-center">
-                <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-sm">
-                  <i data-lucide="map" class="w-8 h-8 text-ocean-blue"></i>
-                </div>
-                <p class="text-ocean-blue font-medium">{{ t('contact.address') }}</p>
-                <p class="text-gray-500 text-sm mt-2">{{ currentLang === 'zh-TW' ? '台灣' : 'Taiwan' }}</p>
+              <!-- Google Map -->
+              <div class="mt-6 rounded-xl overflow-hidden shadow-md border border-gray-100">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.6!2d121.4592!3d25.0138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a8126cec4e59%3A0x0!2zMjXCsDAwJzQ5LjciTiAxMjHCsDI3JzMzLjEiRQ!5e0!3m2!1szh-TW!2stw!4v1"
+                  width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
